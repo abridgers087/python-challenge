@@ -9,10 +9,9 @@ import csv
 budget_data_csv = os.path.join(".", 'Resources', "budget_data.csv")
 
 #set outgoing file path
-budget_output = os.path.join("." "budget_results.txt")
+budget_output = os.path.join(".", 'analysis', "budget_results.txt")
 
-#setup variables, use lists for easier data storage
-
+#setup variables
 total_months = []
 total_profits = 0 
 previous_data = 0
@@ -78,19 +77,7 @@ print(output)
 
 #export and print to text file
 with open(budget_output, "w") as txt_file:
-    txt_file.write(output)
-
-
-
-
-    
-
-
-
-
-
-
-    
+    txt_file.write(output) 
 
 
     

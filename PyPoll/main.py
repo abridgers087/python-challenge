@@ -16,7 +16,7 @@ import csv
 election_data_csv = os.path.join(".", 'Resources', "election_data.csv")
 
 #set outgoing file path
-election_output = os.path.join("." "election_results.txt")
+election_output = os.path.join(".", 'analysis', "election_results.txt")
 
 #setup variables
 total_votes = 0
